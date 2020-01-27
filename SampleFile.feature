@@ -1,7 +1,7 @@
 Feature: OneWeb
  This feature file holds Sprint1 USs for Account Hub
  
-@all
+@MCP-14
 Scenario Outline: AH_CLM_CreationOfAgreementFromOpportunity_US232
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
