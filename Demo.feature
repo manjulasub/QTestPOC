@@ -1,4 +1,4 @@
-Feature: OneWeb
+Feature: OneWebDemo
  This feature file holds Sprint1 USs for Account Hub
  
  @MCP-67
