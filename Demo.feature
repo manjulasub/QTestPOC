@@ -3,7 +3,7 @@ Feature: OneWebDemo
  
 @MCP-14
 Scenario Outline: AH_CLM_CreationOfAgreementFromOpportunity_US251
-	Given Navigate to Salesforce SIT Loginpage
+	Given Navigate to Salesforce SIT Loginpage abc
 	When Login to Salesforce SIT Loginpage
 	And User creates an Opportunity
 	Then Create an Agreement for an Opportunity
