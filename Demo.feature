@@ -1,4 +1,4 @@
-Feature: OneWebDemo
+Feature: SmokeTestFeature
  This feature file holds Sprint1 USs for Account Hub
  
 @MCP-14
