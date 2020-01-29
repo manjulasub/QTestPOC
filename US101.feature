@@ -1,4 +1,4 @@
-Feature: AccountHub-US101
+Feature: OneWeb_AccountHub_SP3_US101
  This feature file holds Sprint3 USs for Account Hub
 
 @sp3
