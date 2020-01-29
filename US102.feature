@@ -6,11 +6,9 @@ Scenario Outline: AH_CLM_ActivateSignedAgreement
 	When Login to Salesforce SIT Loginpage
 	Then User generates agreement documents in selected formats
 	Then Activate a Signed Agreement
-
 Examples:
 	|TestData   |
 	|TestData_01|
-
 
 Scenario Outline: AH_CLM_ValidateAgreementStatus
 	Given Navigate to Salesforce SIT Loginpage
