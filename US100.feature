@@ -3,7 +3,7 @@ Feature: OneWeb_AH_SP3_US100
  
 @sp3 @runn
 Scenario Outline: AH_Sales_CreateEndCustomerOpportunity
-	Given Navigate to Salesforce SIT Loginpage abc
+	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	Then User creates an End Customer Opportunity and verifies statuses
 	
