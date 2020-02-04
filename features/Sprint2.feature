@@ -1,5 +1,5 @@
 Feature: OneWeb
- This feature file holds Sprint3 USs for Account Hub
+ This feature file holds Sprint2 USs for Account Hub
  
 @all @sp3
 Scenario Outline: AH_Sales_CreateEndCustomerOpportunity
