@@ -33,4 +33,15 @@ Feature: OneWeb_AH_SP3_US101
       | TestData_01 |
 
   @ORPHAN
+  Scenario Outline: new demo_Bhave
+    Given Navigate to Salesforce SIT Loginpage - New
+    When Login to Salesforce SIT Loginpage
+    And User creates New Lead
+    Then User converts Lead
+    
+    Examples:
+      | TestData    |
+      | TestData_01 |
+
+  @ORPHAN
   Scenario: new demo_Bhave
