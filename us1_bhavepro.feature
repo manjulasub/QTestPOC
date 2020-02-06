@@ -1,6 +1,6 @@
 Feature: US1_Bhavepro
 
-  @ORPHAN
+  @BD-1 @OPEN
   Scenario: SC1_US1
     Given application is up
     When user has logged 
