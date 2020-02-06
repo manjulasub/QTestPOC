@@ -31,3 +31,6 @@ Feature: OneWeb_AH_SP3_US101
     Examples:
       | TestData    |
       | TestData_01 |
+
+  @ORPHAN
+  Scenario: new demo_Bhave
