@@ -4,7 +4,7 @@ Feature: OneWeb_AH_SP3_US101
 
   @ORPHAN @sp3
   Scenario: AH_CLM_SendAgreementForReview
-    Given Navigate to Salesforce SIT Loginpage "Newchange"
+    Given Navigate to Salesforce SIT Loginpage "Newchange..with the BDD tool"
     When Login to Salesforce SIT Loginpage
     Then User generates agreement documents in selected formats
     Then User Sends an Agreement For Review
