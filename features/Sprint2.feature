@@ -2,7 +2,7 @@ Feature: OneWeb
 
   This feature file holds Sprint2 USs for Account Hub
 
-  @ORPHAN @all @sp3
+  @BD-1 @OPEN @all @sp3
   Scenario Outline: AH_Sales_CreateEndCustomerOpportunity
     Given Navigate to Salesforce SIT Loginpage
     When Login to Salesforce SIT Loginpage
