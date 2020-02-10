@@ -8,4 +8,13 @@ Scenario Outline: Create Lead
 	
 Examples:
 	|TestData   |
-	|TestData_01|	
+	|TestData_01|
+
+Scenario Outline: Automated Case 1
+	Given Navigate to Salesforce SIT Loginpage
+	When Login to Salesforce SIT Loginpage
+	Then User creates an DP Opportunity
+	
+Examples:
+	|TestData   |
+	|TestData_01|
