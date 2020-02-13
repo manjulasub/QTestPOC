@@ -5,4 +5,4 @@ Feature:
     Creation of Lead
     
     Given User is on Salesforce Page
-    Then User creates an End Customer Opportunity and verifies statuses
+    Then User creates a Lead
