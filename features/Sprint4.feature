@@ -2,10 +2,10 @@ Feature: Sprint4
  This feature file holds Sprint3 USs for Account Hub
  
 
-Scenario Outline: AH_Sales_CreateEndCustomerOpportunity
+Scenario Outline: Sales_CreateEndCustomerOpportunity
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
-	Then User creates an End Customer Opportunity and verifies statuses
+	Then User creates Lead
 	
 Examples:
 	|TestData   |
