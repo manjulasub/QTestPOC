@@ -6,4 +6,5 @@ Feature:
     
     Given User has login credentials
     When User logs in
-    Then User creates an End Customer Opportunity and verifies statuses
+    Then User creates a Lead
+    And Converts Lead
