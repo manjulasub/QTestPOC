@@ -5,4 +5,4 @@ Feature: Sprint4US
     
     Given User has login credentials
     When User logs in
-    Then User creates a lead
+    Then User creates many leads
