@@ -7,6 +7,7 @@ Scenario Outline: AH_Sales_CreateEndCustomerOpportunity
 	When Login to Salesforce SIT Loginpage
 	Then User creates an End Customer Opportunity and verifies statuses
 	Then show a new page
+	And also display a text message "Hello"
 	
 Examples:
 	|TestData   |
