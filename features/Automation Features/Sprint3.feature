@@ -1,10 +1,11 @@
-Feature: OneWeb
- This feature file holds Sprint3 USs for Account Hub
+Feature: OW
+ This feature file hold sample
+ 
  
 @all @sp3
-Scenario Outline: AH_Sales_CreateEndCustomerOpportunity
-	Given Navigate to Salesforce SIT
-	When Login to Salesforce SIT Loginpage
+Scenario Outline: Asamplety
+	Given Navigate to APP SIT
+	When Login to APP SIT Loginpage
 	Then User creates an End Customer Opportunity and verifies statuses
 	Then Make a change!!
 
