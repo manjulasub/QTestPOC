@@ -2,7 +2,7 @@ Feature: US500
  This feature file holds Sprint1 USs for Account Hub
   
 @all @sp1 @232
-Scenario Outline: AH_CLM_CreationOfAgreementFromOpportunity_US232
+Scenario Outline: AH_BBB
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And User creates an Opportunity
