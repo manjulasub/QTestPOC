@@ -1,9 +1,9 @@
-Feature: OneWeb
-  <Some interesting description here>
+Feature: OW
+  <Some interesting description h
 
- Scenario: AH_CPQ_SendingQuoteforApproval_US311
-	Given Navigate to Salesforce SIT Loginpage
-	When Login to Salesforce SIT Loginpage
-	And User creates an Opportunity
-	Then User creates Quote from Opportunity
+ Scenario: AH_CSample2
+	Given Navigate to APP SIT Loginpage
+	When Login to APP SIT Loginpage
+	And User creates an OPT
+	Then User creates Quote from OPT
 	And SetUp an Approval Hierarchy
