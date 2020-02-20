@@ -1,5 +1,5 @@
-Feature: OneWeb
- This feature file holds Sprint3 USs for Account Hub
+Feature: OW
+ This feature file holds Sprint3 USs for AH
 
 Scenario Outline: Create Lead
 	Given Navigate to Salesforce SIT Loginpage
