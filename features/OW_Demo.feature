@@ -14,3 +14,8 @@ Scenario: Automated TC 2
 	When Login to APP SIT Loginpage
 	Then Creates an Opp	
 
+@sp4
+Scenario: Automated TC 3
+	Given Navigate to APP SIT Loginpage
+	When Login to APP SIT Loginpage
+	Then Creates a Lead
