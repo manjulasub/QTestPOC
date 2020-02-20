@@ -2,7 +2,7 @@ Feature: Regression
  This feature file holds Sprint3 USs for Account Hub
  
 @sp3 @runn
-Scenario Outline: AH_Sales_CreateEndCustomerOpportunity
+Scenario Outline: A
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	Then User creates an End Customer Opportunity and verifies statuses
@@ -12,7 +12,7 @@ Examples:
 	|TestData_01|
 
 @all @sp1
-Scenario Outline: AH_CPQ_CreateQuote_US214_US215
+Scenario Outline: B
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And User creates an Opportunity
@@ -24,7 +24,7 @@ Examples:
 	|TestData_01|	
 	
 @all @sp1
-Scenario Outline: AH_CLM_SendAgreementForReview_US245
+Scenario Outline: C
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	Then User generates agreement documents in selected formats
@@ -36,7 +36,7 @@ Examples:
 	
 	
 @all @sp1
-Scenario Outline: AH_CPQ_ViewQuoteRecordDeatils_US351
+Scenario Outline: D
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And Search for an Existing Quote
@@ -48,7 +48,7 @@ Examples:
 	|TestData_01|
 	
 @all @sp1
-Scenario Outline: AH_CPQ_ValidateQuoteStatus_US346
+Scenario Outline: E
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And Search for an Existing Quote
@@ -59,7 +59,7 @@ Examples:
 	|TestData_01|
 	
 @all @sp1
-Scenario Outline: AH_CPQ_MarkQuoteAsPrimary_US217_US216
+Scenario Outline: F
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And Search for an Existing Quote
@@ -70,7 +70,7 @@ Examples:
 	|TestData_01|
 	
 @all @sp1
-Scenario Outline: AH_Sales_MaintainAccountRelationships_US332
+Scenario Outline: G
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And User creates New Account
