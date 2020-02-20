@@ -7,6 +7,7 @@ Scenario: Automated TC 1
 	When Login to APP SIT Loginpage
 	And User creates an OPT
 	Then Create an Agreement for an Opp 
+	And Logs out
 	
 @sp4
 Scenario: Automated TC 2
