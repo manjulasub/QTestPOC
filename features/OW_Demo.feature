@@ -3,8 +3,8 @@ Feature: OW_Demo
   
 @all @sp3
 Scenario: Sample
-	Given Navigate to Salesforce SIT Loginpage
-	When Login to Salesforce SIT Loginpage
-	And User creates an Opportunity
+	Given Navigate to APP SIT Loginpage
+	When Login to APP SIT Loginpage
+	And User creates an OPT
 	Then Create an Agreement for an Opp 
 	And logout
